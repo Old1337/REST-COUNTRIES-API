@@ -7,7 +7,7 @@ function App() {
   return (
     <main className="bg-primary dark:bg-darkBg  min-h-screen">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/REST-COUNTRIES-API" element={<Home />} />
         <Route
           path="/REST-COUNTRIES-API/:country"
           element={<CountryDetails />}
