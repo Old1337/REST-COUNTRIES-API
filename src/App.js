@@ -8,7 +8,10 @@ function App() {
     <main className="bg-primary dark:bg-darkBg  min-h-screen">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/:country" element={<CountryDetails />} />
+        <Route
+          path="/REST-COUNTRIES-API/:country"
+          element={<CountryDetails />}
+        />
       </Routes>
     </main>
   );
