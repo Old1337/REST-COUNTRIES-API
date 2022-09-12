@@ -11,7 +11,7 @@ const Borders = ({ name, path }) => {
   return (
     <Link
       className="bg-white dark:bg-primaryDark dark:text-white shadow-lg p-2 rounded min-w-[6rem]"
-      to={`/REST-COUNTRIES-AP/${path}`}
+      to={`/REST-COUNTRIES-API/${path}`}
     >
       {fullName}
     </Link>
